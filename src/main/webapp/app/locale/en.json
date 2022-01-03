@@ -1,0 +1,14 @@
+{
+  "id.label": "ID",
+  "id.placeholder": "ID",
+  "name.label": "name",
+  "name.placeholder": "name",
+  "email.label": "email",
+  "email.placeholder": "name@example.com",
+  "password.label": "password",
+  "password.placeholder": "password",
+  "login.button": "Sign in",
+  "login.validation.id": "Please enter your ID or password",
+  "register.button": "Sign up",
+  "demo.welcome": "Welcome to common webapp template"
+}

@@ -1,0 +1,167 @@
+/**
+ * Override bootstrap base
+ * author : David
+ */
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--font-family);
+  background-color: var(--body-background-color);
+}
+
+img {
+  max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 11px;
+  margin: 0 3px;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  width: 0;
+  height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-corner:hover {
+  background: #666;
+}
+::-webkit-scrollbar-corner:active {
+  background: #666;
+}
+
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+
+::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border: 0 none #ffffff;
+  border-radius: 0;
+}
+::-webkit-scrollbar-track:hover {
+  background: #ccc;
+}
+::-webkit-scrollbar-track:active {
+  background: #ccc;
+}
+
+p {
+  margin: 0;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 12px 0 12px 12px;
+}
+
+.row {
+  margin: 0;
+}
+
+.col, .col-4, .col-6 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.form-control {
+  height: 32px;
+  font-size: 1.4rem;
+}
+
+.sprite {
+  display: inline-block;
+  vertical-align: middle;
+  color: transparent;
+  border: 0;
+  background: none;
+  font-size: 0;
+  line-height: 0;
+}
+
+.sprite-app {
+  background-image: url(" ../img/sprite-app.png");
+  -webkit-background-size: 250px;
+  background-size: 250px;
+  background-repeat: no-repeat;
+}
+
+.sprite-app.sprite-ios {
+  width: 36px;
+  height: 49px;
+  background-position: 0 0;
+}
+
+.box-icon {
+  font-size: 3rem;
+  color: #b0b0b0;
+}
+
+.box-add-home {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app .title-app {
+  display: inline-block;
+}
+.app img {
+  width: 30%;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.app-container {
+  height: calc(100vh - 50px);
+}
+
+.app-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 3000;
+}
+
+.app-container header {
+  padding: 10px 20px 10px 0;
+}
+
+/*# sourceMappingURL=style-app.css.map */
