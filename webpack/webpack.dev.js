@@ -38,7 +38,7 @@ module.exports = (options) =>
       ignored: /node_modules/,
     },
     devServer: {
-      port: 3000,
+      port: 9000,
       devMiddleware: {
         stats: options.stats,
       },
