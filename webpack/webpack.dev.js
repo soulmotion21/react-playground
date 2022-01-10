@@ -1,33 +1,33 @@
-const webpack = require("webpack");
-const SimpleProgressWebpackPlugin = require("simple-progress-webpack-plugin");
-const { merge } = require("webpack-merge");
+const webpack = require('webpack')
+const SimpleProgressWebpackPlugin = require('simple-progress-webpack-plugin')
+const { merge } = require('webpack-merge')
 
-const utils = require("./utils.js");
-const commonConfig = require("./webpack.common.js");
+const utils = require('./utils.js')
+const commonConfig = require('./webpack.common.js')
 
-const ENV = "development";
+const ENV = 'development'
 
-module.exports = (options) =>
+module.exports = options =>
   merge(commonConfig({ env: ENV }), {
-    devtool: "cheap-module-source-map",
+    devtool: 'cheap-module-source-map',
     mode: ENV,
-    entry: ["./src/main/webapp/app/index"],
+    entry: ['./src/main/webapp/app/index'],
     output: {
-      path: utils.root("build/resources/main/static/"),
-      filename: "app/[name].bundle.js",
-      chunkFilename: "app/[id].chunk.js",
+      path: utils.root('build/resources/main/static/'),
+      filename: 'app/[name].bundle.js',
+      chunkFilename: 'app/[id].chunk.js',
     },
     module: {
       rules: [
         {
           test: /\.(sa|sc|c)ss$/,
           use: [
-            "style-loader",
-            "css-loader",
+            'style-loader',
+            'css-loader',
             {
-              loader: "sass-loader",
+              loader: 'sass-loader',
               options: {
-                implementation: require("sass"),
+                implementation: require('sass'),
               },
             },
           ],
@@ -38,21 +38,21 @@ module.exports = (options) =>
       ignored: /node_modules/,
     },
     devServer: {
-      port: 9000,
+      port: 3000,
       devMiddleware: {
         stats: options.stats,
       },
       compress: true,
       // open: true,
       static: {
-        publicPath: "./build/resources/main/static/",
+        publicPath: './build/resources/main/static/',
       },
       https: options.tls,
       historyApiFallback: true,
       proxy: [
         {
-          context: ["/api"],
-          target: "https://reqres.in", // demo api
+          context: ['/api'],
+          target: 'https://reqres.in', // demo api
           changeOrigin: true,
         },
       ],
@@ -70,7 +70,7 @@ module.exports = (options) =>
       }),
       new webpack.HotModuleReplacementPlugin(),
       new SimpleProgressWebpackPlugin({
-        format: options.stats === "minimal" ? "minimal" : "expanded",
+        format: options.stats === 'minimal' ? 'minimal' : 'expanded',
       }),
     ].filter(Boolean),
-  });
+  })

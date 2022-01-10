@@ -10,5 +10,5 @@
   "login.button": "Sign in",
   "login.validation.id": "Please enter your ID or password",
   "register.button": "Sign up",
-  "demo.welcome": "Welcome to common webapp template"
+  "demo.welcome": "Welcome to webapp"
 }

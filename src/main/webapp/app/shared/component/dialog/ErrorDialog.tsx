@@ -20,25 +20,23 @@ function ErrorDialog(): JSX.Element {
   }, [])
 
   return (
-    <>
-      <Modal show={visible} onHide={onClose} size="lg" backdrop={true}>
-        <Modal.Body>
-          <p>
-            code:
-            {errorStatus['status'] ? errorStatus['status'] : 'Exception'}
-          </p>
-          <p>
-            message:{' '}
-            {Object.keys(errorStatus?.['statusText']).length > 0
-              ? errorStatus['statusText']
-              : 'Not found'}
-          </p>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button onClick={onClose}>확인</Button>
-        </Modal.Footer>
-      </Modal>
-    </>
+    <Modal show={visible} onHide={onClose} size="lg" backdrop={true}>
+      <Modal.Body>
+        <p>
+          code:
+          {errorStatus['status'] ? errorStatus['status'] : 'Exception'}
+        </p>
+        <p>
+          message:{' '}
+          {Object.keys(errorStatus?.['statusText']).length > 0
+            ? errorStatus['statusText']
+            : 'Not found'}
+        </p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={onClose}>확인</Button>
+      </Modal.Footer>
+    </Modal>
   )
 }
 

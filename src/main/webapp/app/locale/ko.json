@@ -10,5 +10,5 @@
   "login.button": "로그인",
   "login.validation.id": "아이디 혹은 비밀번호를 입력하세요",
   "register.button": "등록",
-  "demo.welcome": "Welcome to common webapp template"
+  "demo.welcome": "Welcome to webapp"
 }

@@ -2,7 +2,7 @@
 import { jsx, css } from '@emotion/react'
 import * as React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faExclamationTriangle } from '@fortawesome/free-regular-svg-icons/faExclamationTriangle'
+import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons/faExclamationTriangle'
 
 const textColor = css`
   color: var(--error-text-color);
@@ -10,10 +10,10 @@ const textColor = css`
   margin-right: 3px;
 `
 
-function ErrorText(props) {
+function ErrorText(props): JSX.Element {
   return (
     <React.Fragment>
-      {/*<FontAwesomeIcon icon={faExclamationTriangle} css={textColor} />*/}
+      <FontAwesomeIcon icon={faExclamationTriangle} css={textColor} />
       <span css={textColor}>{props.text}</span>
     </React.Fragment>
   )

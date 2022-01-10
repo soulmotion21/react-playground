@@ -55,16 +55,6 @@
       background-size: 130px;
       text-indent: -9999em;
       color: transparent;
-
-      &:after {
-        content: '';
-        position: absolute;
-        top: 5px;
-        right: -24px;
-        width: 1px;
-        height: 35px;
-        background: #8993a1;
-      }
     }
   }
 

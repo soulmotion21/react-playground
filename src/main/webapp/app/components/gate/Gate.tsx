@@ -1,7 +1,7 @@
-import * as React from "react";
-import { NavLink } from "react-router-dom";
-import { FormattedMessage } from "react-intl";
-import ThemeToggler from "app/shared/component/ThemeToggler";
+import * as React from 'react'
+import { NavLink } from 'react-router-dom'
+import { FormattedMessage } from 'react-intl'
+import ThemeToggler from 'app/shared/component/ThemeToggler'
 
 function Gate(): JSX.Element {
   return (
@@ -10,7 +10,7 @@ function Gate(): JSX.Element {
         <h1>
           <span className="logo">logo</span>
         </h1>
-        <span className="title-sub-text">login</span>
+        <span className="title-sub-text"></span>
 
         <div className="title-toggler">
           <ThemeToggler />
@@ -25,10 +25,10 @@ function Gate(): JSX.Element {
       </div>
 
       <div className="area-gate-info">
-        <div className="container-fluid"></div>
+        <p>web app</p>
       </div>
     </div>
-  );
+  )
 }
 
-export default Gate;
+export default Gate
