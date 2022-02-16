@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bdb67316-f4fe-4cef-979a-10bdeaf4c966" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/01_nextjs/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/.prettierignore" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/.prettierignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/actions/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/actions/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/asset/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/asset/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/asset/html/pages/_blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/asset/html/pages/_blank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/asset/html/pages/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/asset/html/pages/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/asset/html/pages/guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/asset/html/pages/guide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/asset/html/style/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/asset/html/style/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/asset/img/sprite-app.png" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/asset/img/sprite-app.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/asset/style/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/asset/style/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/asset/style/style-app.css" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/asset/style/style-app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/asset/style/style-app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/asset/style/style-app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/asset/style/style-demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/asset/style/style-demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/asset/style/style-demo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/asset/style/style-demo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/asset/style/style-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/asset/style/style-form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/asset/style/style-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/asset/style/style-header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/asset/style/style-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/asset/style/style-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/asset/style/style-util.css" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/asset/style/style-util.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/asset/style/style-util.scss" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/asset/style/style-util.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/asset/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/asset/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/asset/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/asset/style/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/components/gate/Gate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/components/gate/Gate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/components/layout/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/components/layout/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/components/layout/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/components/layout/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/components/login/ErrorText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/components/login/ErrorText.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/components/login/FormClearButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/components/login/FormClearButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/components/login/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/components/login/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/components/login/Register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/components/login/Register.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/components/login/RegisterDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/components/login/RegisterDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/config/env.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/config/env.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/config/icon-loader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/config/icon-loader.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/config/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/config/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/hooks/useAsync.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/hooks/useAsync.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/hooks/useMounted.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/hooks/useMounted.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/hooks/useRootState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/hooks/useRootState.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/locale/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/locale/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/locale/ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/locale/ja.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/locale/ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/locale/ko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/api/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/api/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/api/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/api/client.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/chart/LoadingChart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/chart/LoadingChart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/chart/ReactEChart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/chart/ReactEChart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/chart/chart-options.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/chart/chart-options.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/chart/echart.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/chart/echart.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/chart/theme/dark-theme.json" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/chart/theme/dark-theme.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/chart/theme/light-theme.json" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/chart/theme/light-theme.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/component/AlertLogin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/component/AlertLogin.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/component/FullpageLoading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/component/FullpageLoading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/component/Loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/component/Loading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/component/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/component/Modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/component/NotFoundScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/component/NotFoundScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/component/SelectLocale.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/component/SelectLocale.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/component/SkipNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/component/SkipNavigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/component/ThemeToggler.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/component/ThemeToggler.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/component/dialog/Dialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/component/dialog/Dialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/component/dialog/ErrorDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/component/dialog/ErrorDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/component/dialog/UnhandledErrorDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/component/dialog/UnhandledErrorDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/component/dialog/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/component/dialog/type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/error-boundary-private-route.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/error-boundary-private-route.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/error-boundary-route.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/error-boundary-route.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/error-boundary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/error-boundary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/model/boards.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/model/boards.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/reducers/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/reducers/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/reducers/error-dialog.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/reducers/error-dialog.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/reducers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/utils/exclude-header-path.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/utils/exclude-header-path.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/utils/regExp.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/utils/regExp.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/shared/utils/set-theme-body-dataset.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/shared/utils/set-theme-body-dataset.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/app/typings.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/app/typings.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/test/java/ai/planit/commonwebapp/domain/user/service/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/test/java/ai/planit/commonwebapp/domain/user/service/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/test/javascript/demo/demo.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/test/javascript/demo/demo.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/src/test/javascript/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/src/test/javascript/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/webpack/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/webpack/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/webpack/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/webpack/webpack.common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/webpack/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/webpack/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_nextjs/webpack/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_next/webpack/webpack.prod.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23ALfTZGTSgBCsiweW1ZWmjWocm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/01_nextjs" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="actions.on.save" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/01_nextjs" />
+      <recent name="$PROJECT_DIR$/0_basic" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdb67316-f4fe-4cef-979a-10bdeaf4c966" name="Changes" comment="" />
+      <created>1641172047409</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641172047409</updated>
+      <workItem from="1641172048498" duration="974000" />
+      <workItem from="1641184140219" duration="4024000" />
+      <workItem from="1641254028415" duration="10000" />
+      <workItem from="1641780580949" duration="3884000" />
+      <workItem from="1644992446679" duration="941000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
