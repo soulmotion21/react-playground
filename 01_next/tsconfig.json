@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "jsx": "react",
+    "jsx": "preserve",
     "target": "es6",
     "module": "esnext",
     "moduleResolution": "node",
@@ -27,15 +27,23 @@
     "baseUrl": "./",
     "paths": {
       "app/*": [
-        "src/main/webapp/app/*"
+        "src/*"
       ]
     },
     "importHelpers": true,
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
   },
   "include": [
-    "src/main/webapp/app"
+    "src",
+    "next-env.d.ts"
   ],
   "exclude": [
     "node_modules"

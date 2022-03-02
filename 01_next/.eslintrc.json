@@ -1,6 +1,7 @@
 {
   "env": {
     "browser": true,
+    "node": true,
     "es2021": true,
     "jest": true
   },
@@ -20,6 +21,7 @@
     "project": "./tsconfig.json"
   },
   "plugins": [
+    "import",
     "react",
     "prettier",
     "@typescript-eslint",
@@ -44,6 +46,7 @@
     "prefer-const": "off",
     "eqeqeq": "off",
     "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
     "react/jsx-no-useless-fragment": [
       "warn",
       {
