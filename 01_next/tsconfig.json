@@ -28,7 +28,8 @@
     "paths": {
       "app/*": [
         "src/*"
-      ]
+      ],
+      "@/components/*": ["components/*"]
     },
     "importHelpers": true,
     "esModuleInterop": true,
@@ -43,9 +44,10 @@
   },
   "include": [
     "src",
-    "next-env.d.ts"
+    "next-env.d.ts",
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "test"
   ]
 }

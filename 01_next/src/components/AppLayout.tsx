@@ -8,7 +8,7 @@ function AppLayout({ children }) {
         <Link href="/">
           <a>홈</a>
         </Link>
-        <Link href="/signup">
+        <Link href="/account/register">
           <a>가입</a>
         </Link>
       </div>
