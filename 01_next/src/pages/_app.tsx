@@ -1,14 +1,12 @@
-import Head from 'next/head'
+import AppHead from '../components/layout/AppHead'
 
 // css
 
-function App({ Component }) {
+function App({ Component, pageProps }): JSX.Element {
   return (
     <>
-      <Head>
-        <title>Next App</title>
-      </Head>
-      <Component />
+      <AppHead />
+      <Component {...pageProps} />
     </>
   )
 }
