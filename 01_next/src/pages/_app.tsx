@@ -1,5 +1,5 @@
 import * as React from 'react'
-import AppLayout from 'app/components/AppLayout'
+import AppLayout from '../components/layout/AppLayout'
 
 // css
 
