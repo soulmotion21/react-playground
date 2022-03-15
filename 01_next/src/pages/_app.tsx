@@ -1,15 +1,13 @@
-import Head from 'next/head'
+import * as React from 'react'
+import AppLayout from 'app/components/AppLayout'
 
 // css
 
-function App({ Component }) {
+function App({ Component, pageProps }): JSX.Element {
   return (
-    <>
-      <Head>
-        <title>Next App</title>
-      </Head>
-      <Component />
-    </>
+    <AppLayout>
+      <Component {...pageProps} />
+    </AppLayout>
   )
 }
 

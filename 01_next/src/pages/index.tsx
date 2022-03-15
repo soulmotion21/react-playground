@@ -1,12 +1,13 @@
-import AppLayout from '../components/AppLayout'
+import Head from 'next/head'
+import * as React from 'react'
 
 const Home = () => {
   return (
     <>
-      <AppLayout>
-        <div>Hello Next!</div>
-        <p>aaa</p>
-      </AppLayout>
+      <Head>
+        <title>Next App | Testing</title>
+      </Head>
+      <div>Hello Next js!</div>
     </>
   )
 }

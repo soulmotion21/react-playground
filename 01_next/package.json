@@ -13,7 +13,7 @@
     "cleanup": "rimraf build/resources/main/static/",
     "start": "next",
     "build": "next build",
-    "test": "jest --watch",
+    "test": "jest --watch --all",
     "sass": "sass --watch ./src/main/webapp/app/asset/style"
   },
   "devDependencies": {
