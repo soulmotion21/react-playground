@@ -1,0 +1,31 @@
+.section-header {
+  position: relative;
+  height: 50px;
+  background: #fff;
+  border-bottom: #ddd 1px solid;
+  padding: 3px 20px 0;
+}
+.section-header h1 {
+  padding: 0;
+  line-height: 50px;
+}
+.section-header .logo {
+  display: block;
+  width: 130px;
+  height: 43px;
+  background-image: url("../../asset/img/logo.png");
+  background-size: 130px;
+  text-indent: -9999em;
+  color: transparent;
+}
+.section-header .area-header-title {
+  position: absolute;
+  top: 13px;
+  left: 220px;
+}
+.section-header .area-header-title a {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+/*# sourceMappingURL=style-header.css.map */

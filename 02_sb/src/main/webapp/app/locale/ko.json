@@ -1,0 +1,14 @@
+{
+  "id.label": "아이디",
+  "id.placeholder": "아이디",
+  "name.label": "이름",
+  "name.placeholder": "이름",
+  "email.label": "이메일",
+  "email.placeholder": "name@example.com",
+  "password.label": "비밀번호",
+  "password.placeholder": "비밀번호",
+  "login.button": "로그인",
+  "login.validation.id": "아이디 혹은 비밀번호를 입력하세요",
+  "register.button": "등록",
+  "demo.welcome": "Welcome to webapp"
+}
