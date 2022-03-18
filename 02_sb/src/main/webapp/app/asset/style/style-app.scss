@@ -1,0 +1,287 @@
+/**
+ * Override bootstrap base
+ * author : David
+ */
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--font-family);
+  background-color: var(--body-background-color);
+  color: var(--text-color);
+}
+
+img {
+  max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 11px; // 9
+  margin: 0 3px;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  width: 0;
+  height: 0; // 9
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+
+  &:hover {
+    background: #666;
+  }
+
+  &:active {
+    background: #666;
+  }
+}
+
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+
+::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border: 0 none #ffffff;
+  border-radius: 0;
+
+  &:hover {
+    background: #ccc;
+  }
+
+  &:active {
+    background: #ccc;
+  }
+}
+
+
+p {
+  margin: 0;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+a {
+  color: var(--link-text-color);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 12px 0 12px 12px;
+}
+
+section {
+  padding: 20px;
+
+  h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+}
+
+caption {
+  display: none;
+}
+
+.row {
+  margin: 0;
+}
+
+.col, .col-4, .col-6 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.form-control {
+  height: 32px;
+  font-size: 1.4rem;
+  //color: var(--text-color);
+
+  &:focus {
+    //color: var(--text-color);
+  }
+}
+
+.form-control-lg {
+  min-height: calc(1.5em + 2rem + 2px);
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  border-radius: 0.3rem;
+}
+
+.was-validated .form-control:invalid,
+.form-control.is-invalid {
+  background-color: #fff2f4;
+}
+
+.form-label {
+  font-size: 1.4rem;
+  color: #6c757d;
+}
+
+.sprite {
+  display: inline-block;
+  vertical-align: middle;
+  color: transparent;
+  border: 0;
+  background: none;
+  font-size: 0;
+  line-height: 0;
+}
+
+.sprite-app {
+  background-image: url(' ../img/sprite-app.png');
+  -webkit-background-size: 250px;
+  background-size: 250px;
+  background-repeat: no-repeat;
+}
+
+.sprite-app.sprite-ios {
+  width: 36px;
+  height: 49px;
+  background-position: 0 0;
+}
+
+.box-icon {
+  font-size: 3rem;
+  color: #b0b0b0;
+}
+
+.box-add-home {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app {
+  .title-app {
+    display: inline-block;
+  }
+
+  img {
+    width: 30%;
+    vertical-align: middle;
+    margin-left: 20px;
+  }
+}
+
+.app-container {
+  position: relative;
+  height: calc(100vh - 50px);
+}
+
+.app-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 3000;
+}
+
+.app-container {
+  header {
+    padding: 10px 20px 10px 0;
+  }
+}
+
+// echart container
+.chart-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.table.table-board {
+  contain: strict;
+  margin-bottom: 0;
+
+  &.table-center {
+    th, td {
+      text-align: center;
+    }
+  }
+
+  thead th {
+    background-color: var(--thead-background);
+    font-weight: normal;
+  }
+
+  tbody tr {
+    cursor: pointer;
+  }
+}
+
+.table.table-board > :not(:first-child) {
+  border-top: 1px solid var(--primary);
+}
+
+.pagination.pagination-board {
+  margin-top: 15px;
+}
+
+.pagination-board {
+  .page-item {
+    .page-link {
+      background-color: var(--pagination-bg);
+      border-color: var(--pagination-border);
+
+      span {
+        vertical-align: middle;
+        font-size: 1rem;
+      }
+    }
+
+    &.disabled .page-link {
+      background-color: var(--pagination-bg);
+      border-color: var(--pagination-border);
+    }
+
+    &.active .page-link {
+      background-color: var(--primary);
+      border-color: var(--primary);
+    }
+
+  }
+}
+
+.pagination-board.pagination-lg .page-link {
+  padding: 0.75rem 1.2rem;
+  font-size: 1.25rem;
+}
+
+.area-editor {
+  .box-content {
+    min-height: 300px;
+  }
+}

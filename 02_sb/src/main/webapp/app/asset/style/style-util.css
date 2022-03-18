@@ -1,0 +1,41 @@
+.error-boundary-detail {
+  padding: 20px;
+}
+
+.btn-devtools {
+  width: 40px;
+  height: 20px;
+  background: none;
+}
+.btn-devtools svg {
+  opacity: 0;
+  width: 40px;
+  height: 20px;
+}
+
+.chart-spinner-wrap {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.chart-spinner-wrap .chart-spinner {
+  height: 25px;
+  width: 25px;
+  background: transparent;
+  border-radius: 50%;
+}
+.chart-spinner-wrap .chart-spinner.spinner-1 {
+  border-top: 2px solid var(--category-color-red);
+  animation: spinner1 400ms linear infinite;
+}
+@keyframes spinner1 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#react-refresh-overlay {
+  display: none;
+}
+
+/*# sourceMappingURL=style-util.css.map */
