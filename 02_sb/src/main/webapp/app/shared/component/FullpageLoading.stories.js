@@ -1,10 +1,8 @@
-/** @jsxRuntime classic /
- /** @jsx jsx */
-
+/** @jsx jsx */
 import { jsx, css } from '@emotion/react'
 import * as React from 'react'
 
-function FullpageLoading(props): JSX.Element {
+function FullpageLoading(props) {
   return (
     <div
       css={{
