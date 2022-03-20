@@ -7,6 +7,8 @@ import {
 } from 'react-query'
 // import {getTodos, postTodo} from '../my-api'
 
+type AnyOBJ = { [key: string]: any }
+
 // Create a client for SSR : Make once
 export const getClient = (() => {
   let client: QueryClient | null = null
@@ -16,8 +18,25 @@ export const getClient = (() => {
   }
 })()
 
-export const fetcher = async ({url, fetchOptions}) => {
+const BASE_URL = 'https://fakestoreapi.com'
+
+export const fetcher = async ({
+                                method,
+                                path,
+                                body,
+                                params
+                              }: { method: 'GET' | 'POST' | 'DELETE' | 'PATCH'; path: string; body?: AnyOBJ; params?: AnyOBJ }) => {
   try {
+    const url = `${BASE_URL}${path}`
+
+    const fetchOptions: RequestInit = {
+      method,
+      headers: {
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-origin': BASE_URL
+      }
+    }
+
     const res = await fetch(url, fetchOptions)
     const json = await res.json()
     return json
