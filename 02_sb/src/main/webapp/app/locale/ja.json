@@ -1,0 +1,14 @@
+{
+  "id.label": "ID",
+  "id.placeholder": "ID",
+  "name.label": "名前",
+  "name.placeholder": "名前",
+  "email.label": "Eメール",
+  "email.placeholder": "名前@example.com",
+  "password.label": "パスワード",
+  "password.placeholder": "パスワード",
+  "login.button": "ログイン",
+  "login.validation.id": "아이디 혹은 비밀번호를 입력하세요",
+  "register.button": "登録する",
+  "demo.welcome": "一般的なウェブアプリテンプレートへようこそ"
+}

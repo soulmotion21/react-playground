@@ -1,13 +1,13 @@
-import AppHead from '../components/layout/AppHead'
+import * as React from 'react'
+import AppLayout from '../components/layout/AppLayout'
 
 // css
 
 function App({ Component, pageProps }): JSX.Element {
   return (
-    <>
-      <AppHead />
+    <AppLayout>
       <Component {...pageProps} />
-    </>
+    </AppLayout>
   )
 }
 

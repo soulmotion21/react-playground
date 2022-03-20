@@ -1,17 +1,10 @@
 import * as React from 'react'
-import Link from 'next/link'
+import NavBar from 'app/components/NavBar'
 
-function AppLayout({ children }) {
+function AppLayout({ children }): JSX.Element {
   return (
     <>
-      <div>
-        <Link href="/">
-          <a>홈</a>
-        </Link>
-        <Link href="/account/register">
-          <a>가입</a>
-        </Link>
-      </div>
+      <NavBar />
       {children}
     </>
   )
