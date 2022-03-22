@@ -1,9 +1,5 @@
 import {
-  useQuery,
-  useMutation,
-  useQueryClient,
   QueryClient,
-  QueryClientProvider,
 } from 'react-query'
 // import {getTodos, postTodo} from '../my-api'
 
@@ -13,7 +9,17 @@ type AnyOBJ = { [key: string]: any }
 export const getClient = (() => {
   let client: QueryClient | null = null
   return () => {
-    if (!client) client = new QueryClient()
+    if (!client) client = new QueryClient({
+      defaultOptions: {
+        queries: {
+          cacheTime: 1000 * 60 * 60 * 24, // 1 day
+          staleTime: 1000 * 60, // 1 min
+          refetchOnMount: false,
+          refetchOnReconnect: false,
+          refetchOnWindowFocus: false
+        }
+      }
+    })
     return client
   }
 })()
@@ -27,7 +33,7 @@ export const fetcher = async ({
                                 params
                               }: { method: 'GET' | 'POST' | 'DELETE' | 'PATCH'; path: string; body?: AnyOBJ; params?: AnyOBJ }) => {
   try {
-    const url = `${BASE_URL}${path}`
+    let url = `${BASE_URL}${path}`
 
     const fetchOptions: RequestInit = {
       method,
@@ -36,6 +42,13 @@ export const fetcher = async ({
         'Access-Control-Allow-origin': BASE_URL
       }
     }
+
+    if (params) {
+      const searchParams = new URLSearchParams(params)
+      url += '?' + searchParams.toString()
+    }
+
+    if (body) fetchOptions.body = JSON.stringify(body)
 
     const res = await fetch(url, fetchOptions)
     const json = await res.json()
