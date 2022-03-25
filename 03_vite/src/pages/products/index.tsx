@@ -5,7 +5,7 @@ import {Product} from "../../types";
 
 const ProductList = () => {
 
-  const {data} = useQuery(QueryKeys.PRODUCTS, () => fetcher({
+  const {data} = useQuery<Product[]>(QueryKeys.PRODUCTS, () => fetcher({
     method: 'GET',
     path: '/products'
   }))
@@ -13,7 +13,7 @@ const ProductList = () => {
   console.log(data);
 
   return (
-    <ul>
+    <ul className='product-item'>
       {
         data?.map((product: Product) => {
           return (
