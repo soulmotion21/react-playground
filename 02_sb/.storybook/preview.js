@@ -1,7 +1,1 @@
 import './../src/main/webapp/app/asset/style/style.scss'
-// import './../src/main/webapp/app/asset/style/_variables.scss'
-// import './../src/main/webapp/app/asset/style/style-app.scss'
-// import './../src/main/webapp/app/asset/style/style-header.scss'
-// import './../src/main/webapp/app/asset/style/style-util.scss'
-// import './../src/main/webapp/app/asset/style/style-form.scss'
-// import './../src/main/webapp/app/asset/style/style-demo.scss'
