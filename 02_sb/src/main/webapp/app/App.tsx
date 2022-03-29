@@ -2,6 +2,7 @@ import * as React from 'react'
 import '@fortawesome/fontawesome-free/scss/regular.scss'
 import '/node_modules/bootstrap/scss/bootstrap.scss'
 import './asset/style/style.scss'
+import './asset/style/index.scss'
 
 import { BrowserRouter as Router } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
