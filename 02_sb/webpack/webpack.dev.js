@@ -1,6 +1,6 @@
 const webpack = require('webpack')
 const SimpleProgressWebpackPlugin = require('simple-progress-webpack-plugin')
-const { merge } = require('webpack-merge')
+const {merge} = require('webpack-merge')
 
 const utils = require('./utils.js')
 const commonConfig = require('./webpack.common.js')
@@ -8,7 +8,7 @@ const commonConfig = require('./webpack.common.js')
 const ENV = 'development'
 
 module.exports = options =>
-  merge(commonConfig({ env: ENV }), {
+  merge(commonConfig({env: ENV}), {
     devtool: 'cheap-module-source-map',
     mode: ENV,
     entry: ['./src/main/webapp/app/index'],
@@ -24,12 +24,13 @@ module.exports = options =>
           use: [
             'style-loader',
             'css-loader',
+            'postcss-loader',
             {
               loader: 'sass-loader',
               options: {
                 implementation: require('sass'),
               },
-            },
+            }
           ],
         },
       ],

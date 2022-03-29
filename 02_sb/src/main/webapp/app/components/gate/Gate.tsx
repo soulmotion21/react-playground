@@ -25,7 +25,7 @@ function Gate(): JSX.Element {
       </div>
 
       <div className="area-gate-info">
-        <p>web app</p>
+        <p className="text-2xl font-bold text-blue-900">hello tailwind ~ !!</p>
         <span className="tc-color">aaa</span>
       </div>
     </div>

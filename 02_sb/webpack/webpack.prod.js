@@ -1,5 +1,5 @@
-const { merge } = require('webpack-merge')
-const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const {merge} = require('webpack-merge')
+const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CompressionPlugin = require('compression-webpack-plugin')
@@ -10,7 +10,7 @@ const commonConfig = require('./webpack.common.js')
 
 const ENV = 'production'
 
-module.exports = merge(commonConfig({ env: ENV }), {
+module.exports = merge(commonConfig({env: ENV}), {
   mode: ENV,
   performance: {
     hints: false,
@@ -37,6 +37,7 @@ module.exports = merge(commonConfig({ env: ENV }), {
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
+          'postcss-loader',
           {
             loader: 'sass-loader',
             options: {
@@ -68,7 +69,7 @@ module.exports = merge(commonConfig({ env: ENV }), {
       test: /\.(tsx|css|html|svg)$/,
       threshold: 8192,
       minRatio: 0.8,
-      compressionOptions: { level: 1 },
+      compressionOptions: {level: 1},
     }),
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash:8].css',
