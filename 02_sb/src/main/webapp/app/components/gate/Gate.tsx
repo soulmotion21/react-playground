@@ -1,7 +1,4 @@
 import * as React from 'react'
-import { NavLink } from 'react-router-dom'
-import { FormattedMessage } from 'react-intl'
-import ThemeToggler from 'app/shared/component/ThemeToggler'
 
 function Gate(): JSX.Element {
   return (
@@ -12,10 +9,6 @@ function Gate(): JSX.Element {
         </h1>
         <span className="title-sub-text"></span>
 
-        <div className="title-toggler">
-          <ThemeToggler />
-        </div>
-
         <a
           className="title-outer-link"
           href="https://github.com/soulmotion21/react-playground"
@@ -25,7 +18,9 @@ function Gate(): JSX.Element {
       </div>
 
       <div className="area-gate-info">
-        <p className="text-2xl font-bold text-blue-900">hello tailwind ~ !!</p>
+        <p className="text-2xl font-bold text-blue-900">
+          hello tailwind ~ !!??
+        </p>
         <span className="tc-color">aaa</span>
       </div>
     </div>

@@ -11,6 +11,7 @@ import { setThemeBodyDataset } from 'app/shared/utils/set-theme-body-dataset'
 import * as auth from 'app/shared/api/auth'
 import { useDispatch } from 'react-redux'
 import authSlice from 'app/shared/reducers/auth'
+import { IconProp } from '@fortawesome/fontawesome-svg-core'
 
 function ThemeToggler(): JSX.Element {
   const dispatch = useDispatch()
@@ -42,9 +43,9 @@ function ThemeToggler(): JSX.Element {
   return (
     <a href="#" onClick={toggleTheme}>
       {nextTheme === 'dark' ? (
-        <FontAwesomeIcon icon={faMoon} />
+        <FontAwesomeIcon icon={faMoon as IconProp} />
       ) : (
-        <FontAwesomeIcon icon={faSun} />
+        <FontAwesomeIcon icon={faSun as IconProp} />
       )}
     </a>
   )

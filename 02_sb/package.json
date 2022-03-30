@@ -26,6 +26,7 @@
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
+    "@craco/craco": "^6.4.3",
     "@easylogic/react-summernote": "^0.0.9",
     "@emotion/eslint-plugin": "^11.5.0",
     "@emotion/react": "^11.4.0",
@@ -38,6 +39,8 @@
     "@fortawesome/react-fontawesome": "^0.1.11",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.1",
     "@reduxjs/toolkit": "^1.6.2",
+    "@storybook/addon-docs": "^6.4.19",
+    "@storybook/addon-postcss": "^2.0.0",
     "@storybook/addons": "^6.4.19",
     "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^6.4.19",
@@ -134,5 +137,8 @@
   },
   "dependencies": {
     "yarn": "^1.22.17"
+  },
+  "resolutions": {
+    "webpack": "^5"
   }
 }

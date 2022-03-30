@@ -1,1 +1,1 @@
-import './../src/main/webapp/app/asset/style/style.scss'
+import 'tailwindcss/tailwind.css'
