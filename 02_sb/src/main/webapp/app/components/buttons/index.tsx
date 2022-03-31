@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-function Button(props) {
+function Button(): JSX.Element {
   return (
     <button type="button" className="bg-sky-600 hover:bg-sky-700 rounded">
       Basic button

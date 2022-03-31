@@ -43,9 +43,9 @@ function ThemeToggler(): JSX.Element {
   return (
     <a href="#" onClick={toggleTheme}>
       {nextTheme === 'dark' ? (
-        <FontAwesomeIcon icon={faMoon as IconProp} />
+        <FontAwesomeIcon icon={faMoon} />
       ) : (
-        <FontAwesomeIcon icon={faSun as IconProp} />
+        <FontAwesomeIcon icon={faSun} />
       )}
     </a>
   )

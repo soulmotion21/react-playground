@@ -2,10 +2,17 @@ const path = require('path')
 
 module.exports = {
   stories: [
-    "../src/main/webapp/app/components/stories/*.stories.@(js|jsx|ts|tsx|mdx)"
+    "../src/**/*.stories.mdx",
+    "../src/**/*.stories.@(js|jsx|ts|tsx)"
   ],
+  staticDirs: ['./public'],
   addons: [
-    "@storybook/addon-docs",
+    {
+      name: '@storybook/addon-docs',
+      options: {
+        configureJSX: true,
+      },
+    },
     "@storybook/preset-scss",
     {
       name: '@storybook/addon-postcss',
