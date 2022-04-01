@@ -1,4 +1,4 @@
-import {Meta} from '@storybook/addon-docs/blocks';
+import {Meta} from '@storybook/addon-docs';
 
 <Meta title="components/Checkbox" parameters={{
   viewMode: 'docs',
@@ -10,10 +10,15 @@ import {Meta} from '@storybook/addon-docs/blocks';
 
 # Checkbox
 
-> [Checkbox]
+> Checkbox component
+
+## Demo
+<input type='checkbox' name='name'/>
+<label htmlFor='name'>Label</label>
 
 ## Usage
 
 ```tsx
-<input type='checkbox' />;
+<input type='checkbox' name='name'/>
+<label htmlFor='name'>label</label>
 ```

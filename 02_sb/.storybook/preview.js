@@ -1,2 +1,2 @@
 import 'tailwindcss/tailwind.css'
-// import '../src/main/webapp/app/asset/style/style.scss'
+import '../src/main/webapp/app/asset/style/style.scss'

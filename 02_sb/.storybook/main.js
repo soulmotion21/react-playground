@@ -21,7 +21,8 @@ module.exports = {
           implementation: require('postcss'),
         },
       },
-    }
+    },
+    '@storybook/addon-a11y'
   ],
   webpackFinal: async (config) => {
     config.resolve.modules = [

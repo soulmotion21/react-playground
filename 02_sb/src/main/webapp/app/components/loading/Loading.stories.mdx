@@ -1,7 +1,8 @@
-import {Meta} from '@storybook/addon-docs/blocks';
+import {Meta} from '@storybook/addon-docs';
 import FullpageLoading from './FullpageLoading'
+import Loading from './Loading'
 
-<Meta title="components/FullpageLoading" parameters={{
+<Meta title="components/Loading" parameters={{
   viewMode: 'docs',
   previewTabs: {
     canvas: {hidden: true}
@@ -9,23 +10,31 @@ import FullpageLoading from './FullpageLoading'
 }}/>
 
 
-# Full page Loading
+# Loading
 
-> [Full page Loading]
+> Loading component
+
+## Demo
+
+### Full page loading
+<FullpageLoading/>
+
+### Component loading
+<div style={{position: "relative"}}>
+  <Loading/>
+</div>
+
+
+```tsx
+
+```
 
 ## Usage
 
 ```tsx
 
 <FullpageLoading />;
+
+<Loading/>
 ```
 
-## Demo
-
-### Basic Style
-
-```tsx
-
-```
-
-<FullpageLoading/>

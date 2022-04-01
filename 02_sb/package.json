@@ -38,6 +38,7 @@
     "@fortawesome/react-fontawesome": "^0.1.11",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.1",
     "@reduxjs/toolkit": "^1.6.2",
+    "@storybook/addon-a11y": "^6.4.19",
     "@storybook/addon-docs": "^6.4.19",
     "@storybook/addon-postcss": "^2.0.0",
     "@storybook/addons": "^6.4.19",
