@@ -1,15 +1,15 @@
 import * as React from 'react'
 import {Product} from "../../types";
 import {Link} from "react-router-dom";
+import {PRODUCT} from "../../graphql/products";
 
-function ProductItem({category, description, id, image, price, rating, title}: Product) {
+function ProductItem({id, imageUrl, price, title, description, createdAt}: PRODUCT) {
   return (
     <li>
       <Link to={`/products/${id}`}>
-        <p>{category}</p>
-        <img src={image} alt={title}/>
+        <p>{title}</p>
+        <img src={imageUrl} alt={title}/>
         <span>{price}</span>
-        <span>{rating.rate}</span>
       </Link>
     </li>
   )
