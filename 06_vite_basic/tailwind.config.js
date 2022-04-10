@@ -1,5 +1,6 @@
 module.exports = {
   content: ['./src/**/*.{html,tsx,ts}'],
+  prefix: 'tw-',
   theme: {
     extend: {
       colors: {
