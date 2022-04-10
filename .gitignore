@@ -166,6 +166,7 @@ cmake-build-debug/
 .sass-cache
 
 .pnp.*
+
 .yarn/*
 !.yarn/cache
 !.yarn/patches
