@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        base: 'var(--color-text-base)',
         green: colors.emerald,
         gray: colors.slate,
         'red-500': '#fa00ff',

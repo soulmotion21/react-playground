@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-text-base: #b300ff
+  }
+
+  @font-face {
+    font-family: 'Noto Sans';
+    font-weight: normal;
+    src: url('../font/noto-sans-kr-regular.woff') format('woff')
+  }
+}
+
+main {
+  height: 300px;
+  //background: #ddd;
+  background: url("../img/sprite-app.png");
+}
+
+h1 {
+  font-family: "Noto Sans";
+}
+
+.btn {
+  @apply tw-py-2 tw-px-4 tw-font-semibold tw-rounded-lg tw-border tw-border-fuchsia-400
+}

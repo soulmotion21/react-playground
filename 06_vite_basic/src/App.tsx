@@ -1,5 +1,5 @@
 import * as React from 'react'
-import './asset/styles/style.scss'
+import './asset/style/style.scss'
 import DatePicker from './components/datepicker/DatePicker'
 
 function App() {
