@@ -33,6 +33,7 @@
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/no-inferrable-types": "off",
     "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/no-var-requires": "off",
     "no-console": "off",
     "no-use-before-define": "off",
     "no-unused-vars": "warn",
